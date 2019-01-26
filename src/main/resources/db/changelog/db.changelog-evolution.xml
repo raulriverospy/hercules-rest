@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+                   
+    <!-- This script create the usuario y role table with data insert -->
+    <changeSet id="2018-08-13T13:00" author="jdferreira">
+        <sqlFile path="sql/2018-08-13T13:00.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+    <!-- This script create the role por usuario table with data insert -->
+    <changeSet id="2018-08-13T13:42" author="jdferreira">
+        <sqlFile path="sql/2018-08-13T13:42.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+    
+    <!-- This script create the perfil table -->
+    <changeSet id="2018-08-29T08:31" author="jdferreira">
+        <sqlFile path="sql/2018-08-29T08:31.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+    
+    <!-- This script create the pagina table -->
+    <changeSet id="2018-08-29T08:39" author="jdferreira">
+        <sqlFile path="sql/2018-08-29T08:39.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+    
+    <!-- This script create the menu table -->
+    <changeSet id="2018-08-29T14:06" author="jdferreira">
+        <sqlFile path="sql/2018-08-29T14:06.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+    
+    <!-- This script create the perfil_usuario table -->
+    <changeSet id="2018-08-29T15:03" author="jdferreira">
+        <sqlFile path="sql/2018-08-29T15:03.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+    
+    <!-- This script create the api log table -->
+    <changeSet id="2018-09-16T10:30" author="jdferreira">
+        <sqlFile path="sql/2018-09-16T10:30.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+    
+     <!-- This script create the api log table -->
+    <changeSet id="2018-10-09T14:31" author="jdferreira">
+        <sqlFile path="sql/2018-10-09T14:31.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+    
+     <!-- This script create the api log table -->
+    <changeSet id="2018-10-10T11:12" author="jdferreira">
+        <sqlFile path="sql/2018-10-10T11:12.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+    
+    <changeSet id="2018-10-18T10:10" author="jdferreira">
+        <sqlFile path="sql/2018-10-18T10:10.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+    
+    <changeSet id="2019-01-03T15:31" author="jdferreira">
+        <sqlFile path="sql/2019-01-03T15:31.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+    
+    <changeSet id="2019-01-03T15:32" author="jdferreira">
+        <sqlFile path="sql/2019-01-03T15:32.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+    
+</databaseChangeLog>
